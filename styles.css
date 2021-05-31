@@ -1,0 +1,59 @@
+.bord {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+
+}
+
+.stenen {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.box1 {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    background-color: #FFFFCC;
+    z-index: 1;
+}
+
+.box2 {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    background-color: #663300;
+    z-index: 1;
+}
+
+.steenZwart {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    background-color: #000000;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.steenWit {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.steenLeeg {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    z-index: 2;
+}
