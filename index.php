@@ -124,7 +124,6 @@
 if(isset($_GET['id'])){
     echo "het id van de aangeklikte steen is " . $_GET['id'];
 }
-
 ?>
 </body>
 </html>
